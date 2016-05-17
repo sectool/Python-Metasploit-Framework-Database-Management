@@ -34,6 +34,11 @@ def msfdb_start():
 def msfdb_stop():
 	os.system("msfdb stop")
 
+def program_cikis():
+	cikis_mesaj = "Programdan çıkış yaptınız."
+	print cikis_mesaj
+	sys.exit()
+
 islemler_ico = """
 (1) Metasploit-Framework Database Init
 (2) Metasploit-Framework Database Reinit
@@ -62,6 +67,4 @@ elif islem == 5:
 	msfdb_stop()
 
 else:
-	cikis_mesaj = "Programdan çıkış yaptınız."
-	print cikis_mesaj
-	sys.exit()
+	program_cikis
