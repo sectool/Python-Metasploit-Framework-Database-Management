@@ -45,6 +45,7 @@ islemler_ico = """
 (3) Metasploit-Framework Database Delete
 (4) Metasploit-Framework Database Start
 (5) Metasploit-Framework Database Stop
+(6) Exit
 """
 
 print islemler_ico
@@ -66,5 +67,5 @@ elif islem == 4:
 elif islem == 5:
 	msfdb_stop()
 
-else:
+else islem == 6:
 	program_cikis
