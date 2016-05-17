@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import os
+import sys
 
 MetasploitFramework_databasemanagement_ico = """
 ####################################################################################
@@ -47,11 +48,20 @@ islem = input("Yapılcak işlem numarasını giriniz : ")
 
 if islem == 1:
 	msfdb_init()
-if islem == 2:
+
+elif islem == 2:
 	msfdb_reinit()
-if islem == 3:
+
+elif islem == 3:
 	msfdb_delete()
-if islem == 4:
+
+elif islem == 4:
 	msfdb_start()
-if islem == 5:
+
+elif islem == 5:
 	msfdb_stop()
+
+else:
+	cikis_mesaj = "Programdan çıkış yaptınız."
+	print cikis_mesaj
+	sys.exit()
