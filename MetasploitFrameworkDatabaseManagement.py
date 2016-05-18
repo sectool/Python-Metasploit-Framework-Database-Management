@@ -34,7 +34,7 @@ def msfdb_delete():
 	
 def msfdb_start():
 	os.system("msfdb start")
-	servis_baslatma_measj_ico = "Metasploit-Framework Service Database Starting.."
+	servis_baslatma_mesaj_ico = "Metasploit-Framework Service Database Starting.."
 	print star
 	print servis_baslatma_mesaj_ico
 	
