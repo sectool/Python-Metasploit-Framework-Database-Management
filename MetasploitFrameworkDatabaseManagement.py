@@ -39,7 +39,7 @@ def msfdb_stop():
 	print service_durdurma_mesaj_ico
 
 def program_cikis():
-	cikis_mesaj = "Programdan çıkış yaptınız."
+	cikis_mesaj = "Programdan çıkış yaptınız.."
 	print cikis_mesaj
 	sys.exit()
 
