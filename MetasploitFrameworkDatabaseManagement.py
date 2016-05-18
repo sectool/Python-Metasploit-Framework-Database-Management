@@ -45,9 +45,7 @@ def msfdb_stop():
 	print servis_durdurma_mesaj_ico
 
 def program_cikis():
-	cikis_mesaj = "Programdan çıkış yaptınız.."
 	print star
-	print cikis_mesaj
 	sys.exit()
 
 islemler_ico = """
@@ -91,6 +89,7 @@ elif islem == 5:
 	print star
 
 elif islem == 6:
-	print star
+	cikis_mesaj = "Programdan çıkış yaptınız.."
+	print cikis_mesaj
 	program_cikis
 	print star
