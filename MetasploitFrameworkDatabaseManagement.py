@@ -16,6 +16,7 @@ MetasploitFramework_databasemanagement_ico = """
 #                           Whatsapp : + 90 534 295 94 31                          #
 ####################################################################################
 """
+star = "####################################################################################"
 
 print MetasploitFramework_databasemanagement_ico
 
@@ -56,22 +57,36 @@ islemler_ico = """
 
 print islemler_ico
 
+print star
+
 islem = input("Yapılcak işlem numarasını giriniz : ")
 
 if islem == 1:
+	print star
 	msfdb_init()
+	print star
 
 elif islem == 2:
+	print star
 	msfdb_reinit()
+	print star
 
 elif islem == 3:
+	print star
 	msfdb_delete()
+	print star
 
 elif islem == 4:
+	print star
 	msfdb_start()
+	print star
 	
 elif islem == 5:
+	print star
 	msfdb_stop()
+	print star
 
 elif islem == 6:
+	print star
 	program_cikis
+	print star
