@@ -30,11 +30,13 @@ def msfdb_delete():
 
 def msfdb_start():
 	os.system("msfdb start")
-	print "Metasploit-Framework Service database starting"
-
+	service_baslatma_measj_ico "Metasploit-Framework Service Database Starting.."
+	print service_baslatma_measj_ico
+	
 def msfdb_stop():
 	os.system("msfdb stop")
-	print "Metasploit-Framework Service Database Stop"
+	servis_durdurma_mesaj_ico = "Metasploit-Framework Service Database Stop.."
+	print service_durdurma_mesaj_ico
 
 def program_cikis():
 	cikis_mesaj = "Programdan çıkış yaptınız."
