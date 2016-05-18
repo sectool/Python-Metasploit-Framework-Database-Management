@@ -63,9 +63,8 @@ elif islem == 3:
 
 elif islem == 4:
 	msfdb_start()
-
 elif islem == 5:
 	msfdb_stop()
 
-else islem == 6:
+elif islem == 6:
 	program_cikis
