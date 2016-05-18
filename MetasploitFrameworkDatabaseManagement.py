@@ -29,20 +29,24 @@ def msfdb_reinit():
 def msfdb_delete():
 	os.system("msfdb delete")
 	veritabani_kaldirildi_mesaj_ico = "Metasploit-Framework Veritabanı Kaldırıldı."
+	print star
 	print veritabani_kaldirildi_mesaj_ico
 	
 def msfdb_start():
 	os.system("msfdb start")
 	servis_baslatma_measj_ico = "Metasploit-Framework Service Database Starting.."
+	print star
 	print servis_baslatma_mesaj_ico
 	
 def msfdb_stop():
 	os.system("msfdb stop")
 	servis_durdurma_mesaj_ico = "Metasploit-Framework Service Database Stop.."
+	print star
 	print servis_durdurma_mesaj_ico
 
 def program_cikis():
 	cikis_mesaj = "Programdan çıkış yaptınız.."
+	print star
 	print cikis_mesaj
 	sys.exit()
 
