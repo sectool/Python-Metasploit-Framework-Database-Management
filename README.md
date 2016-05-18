@@ -13,3 +13,5 @@ Programın Özellikleri :
 (4) Metasploit-Framework Database Start
 
 (5) Metasploit-Framework Database Stop
+
+(6) Exit
