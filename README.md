@@ -10,8 +10,8 @@ Programın Özellikleri :
 
 (3) Metasploit-Framework Database Delete
 
-(4) Metasploit-Framework Database Start
+(4) Metasploit-Framework Service Database Start
 
-(5) Metasploit-Framework Database Stop
+(5) Metasploit-Framework Service Database Stop
 
 (6) Exit
